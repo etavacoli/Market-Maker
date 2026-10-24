@@ -7,5 +7,7 @@ ENV/
 .idea/
 .vscode/
 .DS_Store
-*.png
-*.csv
+.pytest_cache/
+
+# Order-book data is downloaded by `python run_lob.py --download`, not committed.
+data/
